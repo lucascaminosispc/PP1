@@ -1,6 +1,9 @@
+import suma as s
+import resta as r
+
 a = 5 
 b = 8 
-suma = a + b
-resta = a - b
-print(suma)
-print(resta)
+
+print(s.suma(a,b))
+print(r.resta(a,b))
+print("fin")
